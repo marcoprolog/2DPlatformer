@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{4B96806D-EA4F-29C8-FFFC-08AB6B85CCB6}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DarthVader.cs">
+    <Files>
+      <File FileName="Assets/DarthVader.cs" Line="5" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bf21cc98-b4a9-4806-9b0f-feed1b71c3d8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
