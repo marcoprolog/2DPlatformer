@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
     public float speed = 25;
+    public float maxSpeed = 10;
     float moveInput = 0;
     public float jumpForce = 10;
     public bool isGrounded = false;
@@ -42,7 +43,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.AddForce(Vector2.right * moveInput * speed);
+        if (Mathf.Abs(rb.velocity.x) < maxSpeed)
+            rb.AddForce(Vector2.right * moveInput * speed);
 
         if (jump)
         {
