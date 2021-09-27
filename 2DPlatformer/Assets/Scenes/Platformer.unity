@@ -486,14 +486,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5908316782686797073, guid: 4a9bde1b241c6804b9d805df49c10cdb, type: 3}
-      propertyPath: maxSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5908316782686797077, guid: 4a9bde1b241c6804b9d805df49c10cdb, type: 3}
-      propertyPath: m_LinearDrag
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5908316782686797078, guid: 4a9bde1b241c6804b9d805df49c10cdb, type: 3}
       propertyPath: m_RootOrder
       value: 0
