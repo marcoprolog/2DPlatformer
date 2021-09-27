@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded = false;
     bool jump = false;
     public GameObject groundCheck;
+    public LayerMask groundLayer;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     {
         moveInput = Input.GetAxis("Horizontal");
 
-        RaycastHit2D hit = Physics2D.Linecast(transform.position, groundCheck.transform.position);
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, groundCheck.transform.position, groundLayer);
         if (hit.collider != null)
         {
             isGrounded = true;
